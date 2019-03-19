@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Adjust the background-color Property of Text */
+body{
+    margin: 0;
+    font-family: arial;
+    background: #eee;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+   font-family: 'Cormorant Garamond', serif;
+}
+
+#main-navigation{
+    background: #eee;
+    padding: 10px;
+}
+
+
+#main-navigation a{
+    color: blue;
+}
+
+
+#main-navigation .float-right{
+  float: right;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+#header{
+ background-color: #D3D3D3;
+}
+
+.bold {
+  color: blue;
+}
+
+.container{
+  border-radius: 2px solid black;
+}
+
+img{
+    float: left;
+    padding-right: 10px;
+    margin: 5px;
+  }
+
+.inner-content{
+  margin: 10px;
+  padding-bottom: 5px;
+}
+.content-options {
+ position: relative;
+ top: -90px;
+ margin-left: 10px;
+}
+
+.content-options ul {
+  float: right;
+  margin-right: 25px;
+}
+
+.col-md-8 {
+  margin-bottom: 10px;
+}
